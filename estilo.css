@@ -1,0 +1,77 @@
+div span{
+    transition: 0.9s all linear 0.8s;    
+ }
+
+ .tresde{
+	background-color: #0d8ab8;
+	color: #fff;
+	text-shadow: 1px 1px 0 #ccc,
+	             2px 2px 0 #c9c9c9,
+	             3px 3px 0 #bbb,
+	             4px 4px 0 #b9b9b9,
+	             5px 5px 0 #aaa,
+	             6px 6px 1px rgba(0,0,0,.1),
+	             0 0 5px rgba(0,0,0,.1),
+	             1px 1px 3px rgba(0,0,0,.3),
+	             3px 3px 5px rgba(0,0,0,.2),
+	             5px 5px 10px rgba(0,0,0,.25),
+	             10px 10px 10px rgba(0,0,0,.2),
+	             20px 20px 20px rgba(0,0,0,.15);
+                margin-bottom: 10px;
+}
+
+ .transition3:hover span{
+     transform: rotate(360deg);
+   background-color: #BADA55;
+   box-shadow: 0 0 2px 9px rgba(0,0,0,.4);
+   box-shadow: 0 0 0 5px #ACC21F,
+                 0 0 0 10px #2EAAF4,
+                 0 0 0 15px #F0A500,
+                 0 0 0 20px #F28B12;
+     border-radius: 10px;
+     width: 125px;
+     height: 125px;
+     
+ }
+ body{
+     margin-top: 100px;
+     background: #FEFDE9;
+     background: #FEFDE9;	
+     margin: 0;
+     text-align: center;
+     font-family: "league gothic", "impact" sans-serif;
+     text-transform: uppercase;
+     text-rendering: optimizelegibility;
+     font-size: 140px;
+     line-height: 0;
+ }
+ 
+ 
+ section{
+     text-align: center;
+     margin-bottom: -50px;
+ }
+ 
+ div{
+     width:200px;
+     height: 200px;
+     display: inline-block;
+     margin-right: 2em;
+     width: 100%;
+	overflow: hidden;
+ }
+ 
+ div span{
+   display: inline-block;
+   width:200px;
+     height: 200px;
+ }
+ 
+ section :last-child{
+     margin-right: 0;
+ }
+ 
+ section:first-of-type div span{
+     background: #00A0B0;
+ }
+ 
